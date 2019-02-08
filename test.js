@@ -14,19 +14,19 @@ function stringTwo(){
 }
 
 function addOneToString(a){
-console.log(a);
-secondString = a + " 1";
-console.log(secondString);
-checkLengthOfString(secondString); 
+    console.log(a);
+    secondString = a + " 1";
+    console.log(secondString);
+    checkLengthOfString(secondString); 
 }
 
 function checkLengthOfString(b){
     if (b.length < 5){
     console.log(true);
-}else{
-    console.log(false);
-}
-stringLoop(b);
+    } else{
+        console.log(false);
+    }
+    stringLoop(b);
 }
 
 function stringLoop(c){
